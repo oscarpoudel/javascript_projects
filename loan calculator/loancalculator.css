@@ -1,0 +1,28 @@
+#loancalc{
+    width:374px;
+    height:297px;
+    background-color: black;
+    color:white;
+    margin-left:275px;
+    margin-top: 95px;
+    padding-left: 90px;
+    padding-top:20px;
+}
+
+#months{
+    width:175px;
+    height:20px;
+}
+#amount{
+    width:178px;
+    height:20px;
+    padding-right: 2px;
+}
+#interest_rate{
+    margin-left:2px;
+    width:175px;
+    height: 20px;
+}
+h1{
+    font-size: 40px;
+}
