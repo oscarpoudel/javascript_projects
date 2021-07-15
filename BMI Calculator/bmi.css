@@ -1,0 +1,50 @@
+#container {
+    width:375px;
+    height: 525px;
+    margin:auto;
+    justify-self: center;
+    background-color: yellow;
+    padding-left: 30px;
+}
+
+#cm{
+    width:150px;
+    height:25px;
+    margin-top:30px;
+}
+#kg{
+    width:150px;
+    height:25px;
+    margin-top:30px;
+}
+#weightguide{
+    margin-left:75px;
+    margin-top:50px;
+}
+
+#result{
+    font-size:35px;
+    margin-left:90px;
+    color:blue;
+}
+
+#submit{
+    width:150px;
+    height:35px;
+    margin-left:90px;
+    margin-top:26px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: blue;
+    color:#fff;
+    font-size: 25px;
+
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    padding:20px 20px 0 0;
+}
