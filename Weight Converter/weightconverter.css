@@ -1,0 +1,14 @@
+#container{
+    margin:auto;
+    background-color: blue;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    color:white;
+    width:375px;
+    height: 150px;
+}
+
+#pounds{
+    margin:10px 0 10px 0;
+}
