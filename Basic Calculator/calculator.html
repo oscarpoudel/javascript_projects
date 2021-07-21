@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel = 'stylesheet' type = 'text/css' href='calculator.css'>
+    <script src='calculator.js'></script>
+    
+</head>
+<body>
+    <h1>Basic Calclulator</h1>
+    <br>
+    <form id = 'myform' Name = 'calc'>
+    <input name = 'display' style='width:675px;height:100px;text-align: center;background-color: #1f80c9;'><br>
+    <input type = button value = '0' OnClick='calc.display.value+="0"'>
+    <input type = button value = '1' OnClick='calc.display.value+="1"'>
+    <input type = button value = '2' OnClick='calc.display.value+="2"'>
+    <input type = button value = '+' style='background-color: greenyellow;' OnClick='calc.display.value+="+"'><br>
+    <input type = button value = '3' OnClick='calc.display.value+="3"'>
+    <input type = button value = '4' OnClick='calc.display.value+="4"'>
+    <input type = button value = '5' OnClick='calc.display.value+="5"'>
+    <input type = button value = '-' style='background-color: goldenrod;' OnClick='calc.display.value+="-"'><br>
+    <input type = button value = '6' OnClick='calc.display.value+="6"'>
+    <input type = button value = '7' OnClick='calc.display.value+="7"'>
+    <input type = button value = '8' OnClick='calc.display.value+="8"'>
+    <input type = button value = 'x' style='background-color: rgb(250, 171, 239);' OnClick='calc.display.value+="*"'><br>
+    <input type = button value = '9' OnClick='calc.display.value+="9"'>
+    <input type = button value = 'C' style='background-color: rgb(53, 162, 212);' OnClick='calc.display.value=""'>
+    <input type = button value = '=' style='background-color: red;' OnClick='calc.display.value=eval(calc.display.value)'>
+    <input type = button value = '&#247;' style='background-color: pink;' OnClick='calc.display.value+="/"'>
+</form>
+
+</body>
+</html>
